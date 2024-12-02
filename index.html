@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="bootstrap/bootstrap.css" />
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <div class="container border rounded-3 mt-5 p-5">
+      <div class="wrapper">
+       <div class="row">
+          <div class="col-4">
+              <div class="bootstrap-logo" >
+                  <img src="C:\Users\dgard\Downloads\Operiochristian\logo.png" al  width="40px"> 
+                  <span class="Weather" id="Weather" > <b> Weather Website </b></span>
+              </div>
+          </div>
+           <div class="col-4">
+            <div class="input-group">
+                <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Search Place"
+                    aria-label="Search"
+                    aria-describedby="basic-addon2"
+                    height="30px"
+                />
+                <input class="btn btn-outline-secondary" type="submit" id="button-addon2" value="🔍">
+            </div>
+        </div>
+      <div class="col-4">
+          <div class="input-group">
+             <h2> Lambunao, Iloilo </h2>
+             <img src="loc.png" width="30px" height="35px">
+          </div>
+         </div>
+      <div class="row  cel">
+         <div class="col-md-12 mt-5 current-weather">
+            <h1 id="place" class="place"> Poblacion Ilawod </h1>
+            <span class="temperature" id="temperature">32</span>
+            <span class="unit">
+              <a href="#" id="celcius" class="active">°C</a> |
+              <a href="#" id="fahrenheit">°F</a>
+            </span>
+           <span class = "sun" id="sun">
+             <img src="C:\Users\dgard\Downloads\Operiochristian\sun.png" alt="sun" class="weather-icon" id="weather-icon " width="60px" height="60px">
+            </span>
+             <h3 id="description" class="description">Most Sunny</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mt-5 time">
+            <h2 id="time" class="time">7:20 PM, Friday</h2>
+             </div>
+          <div class="col-md-6 mt-5 date text-end">
+            <h2 id="time" class="time">November 29, 2024</h2>
+          </div>
+        </div>
+        <div class="forecast-container mt-5 p-4 border rounded">
+          
+          <div class="row forecast-row text-center align-items-center">
+    
+    <section class="forecast">
+      <h3>7-Day Weather Forecast</h3>
+      <div class="forecast-cards">
+        
+        <div class="forecast-card">
+          <h4>Saturday</h4>
+          <img src="sunny-removebg-preview.png" alt="Sunny" width="50">
+          <p>31°C | 87°F</p>
+          <span>Sunny</span>
+        </div>
+        <div class="forecast-card">
+          <h4>Sunday</h4>
+          <img src="cloudy.png" alt="Cloudy" width="50">
+          <p>28°C | 82°F</p>
+          <span>Cloudy</span>
+        </div>
+        <div class="forecast-card">
+          <h4>Monday</h4>
+          <img src="t-storm-removebg-preview.png" alt="Cloudy" width="50">
+          <p>28°C | 82°F</p>
+          <span>Stormy</span>
+        </div>
+        <div class="forecast-card">
+          <h4>Tuesday</h4>
+          <img src="sun.png" alt="Cloudy" width="50">
+          <p>28°C | 82°F</p>
+          <span>Sunny</span>
+        </div>
+        <div class="forecast-card">
+          <h4>Wednesday</h4>
+          <img src="rainy-removebg-preview.png" alt="Cloudy" width="50">
+          <p>28°C | 82°F</p>
+          <span>Rainy</span>
+        </div>
+        <div class="forecast-card">
+          <h4>Thursday</h4>
+          <img src="cloudy.png" alt="Cloudy" width="50">
+          <p>28°C | 82°F</p>
+          <span>Cloudy</span>
+        </div>
+        
+       
+      </div>
+    </section>
+          </div></div>
+   
+</div>
+
+    <script src="bootstrap/bootstrap.bundle.js"></script>
+  </body>
+</html>
